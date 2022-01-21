@@ -1,1 +1,20 @@
+@use './variable' as var;
+@use './menu' as menuStyle;
+ 
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 1.2em;
+    font-size: var.$default-size;
+    font-family: var.$body-font;
+    color: var.$white;
+    background-color: var.$dark-blue-email-and-background;
+    border: none;
+
+    @include menuStyle.menu;
+}
+
+
 

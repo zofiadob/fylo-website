@@ -25,11 +25,11 @@ $default-size: 14px;
 
 //////////Headings, Call-to-actions, Header Navigation
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-$accent-font: "Raleway";
+$accent-font: 'Raleway', sans-serif;
 
 //////////Body
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-$accent-font: "Open Sans";
+$body-font: 'Open Sans', sans-serif;
 
 /////Weights for both fonts
 $regular: 400;

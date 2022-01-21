@@ -1,0 +1,18 @@
+@use "./variable" as var;
+
+@mixin menu {
+    .menu-list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 1.7rem 0;
+
+        .logo-image {
+            width: min(50%, 600px);
+        }
+
+        .menu-item {
+            margin: auto;
+        }
+    }
+}
