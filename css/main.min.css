@@ -5,22 +5,36 @@ html {
 }
 
 body {
-  margin: 0 1.2em;
+  margin: 0 1.5em;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: white;
   background-color: #1c2431;
-  border: none;
 }
 body .menu-list {
   display: flex;
-  list-style: none;
   padding: 0;
   margin: 1.7rem 0;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
 }
 body .menu-list .logo-image {
-  width: min(50%, 600px);
+  width: min(70%, 100px);
 }
-body .menu-list .menu-item {
+body .menu-list .left-items {
+  width: 100%;
   margin: auto;
+  display: flex;
+  justify-content: right;
+}
+body .menu-list .left-items .menu-item {
+  margin-left: 1.5rem;
+}
+body .menu-list .left-items .menu-item a {
+  text-decoration: none;
+  color: white;
+}
+body .menu-list .left-items .menu-item a:hover {
+  color: #339ecc;
+  transition: color 0.7s;
 }

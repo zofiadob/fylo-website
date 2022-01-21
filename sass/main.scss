@@ -6,12 +6,11 @@ html{
 }
 
 body{
-    margin: 0 1.2em;
+    margin: 0 1.5em;
     font-size: var.$default-size;
     font-family: var.$body-font;
     color: var.$white;
     background-color: var.$dark-blue-email-and-background;
-    border: none;
 
     @include menuStyle.menu;
 }

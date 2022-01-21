@@ -3,16 +3,34 @@
 @mixin menu {
     .menu-list {
         display: flex;
-        list-style: none;
         padding: 0;
         margin: 1.7rem 0;
+        width: 100%;
+        font-family: var.$accent-font;
 
         .logo-image {
-            width: min(50%, 600px);
+            width: min(70%, 100px);
         }
 
-        .menu-item {
+        .left-items {
+            width: 100%;
             margin: auto;
+            display: flex;
+            justify-content: right;
+
+            .menu-item {
+                margin-left: 1.5rem;
+
+                & a {
+                    text-decoration: none;
+                    color: var.$white;
+
+                    &:hover {
+                        color: var.$blue;
+                        transition: color 0.7s;
+                    }
+                }
+            }
         }
     }
 }
