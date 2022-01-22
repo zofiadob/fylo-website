@@ -8,11 +8,13 @@ $Desktop: 1440px;
 $dark-blue-email-and-background: hsl(217, 28%, 15%);
 $dark-blue-footer: hsl(216, 53%, 9%);
 $dark-blue-testimonials: hsl(219, 30%, 18%);
+$dark-blue-img: #181F2B;
 
 //////////Accent
 $cyan: hsl(176, 68%, 64%);
 $blue: hsl(198, 60%, 50%);
 $light-red: hsl(0, 100%, 63%);
+$hover-button: #8CDBE4;
 
 //////////Neutral
 $white: hsl(0, 0%, 100%);
@@ -24,11 +26,11 @@ $white: hsl(0, 0%, 100%);
 $default-size: 14px;
 
 //////////Headings, Call-to-actions, Header Navigation
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 $accent-font: 'Raleway', sans-serif;
 
 //////////Body
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 $body-font: 'Open Sans', sans-serif;
 
 /////Weights for both fonts

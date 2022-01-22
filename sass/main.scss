@@ -1,19 +1,19 @@
 @use './variable' as var;
 @use './menu' as menuStyle;
+@use './section-first' as section-first;
  
 html{
     box-sizing: border-box;
 }
 
 body{
-    margin: 0 1.5em;
+    margin: 0;
     font-size: var.$default-size;
     font-family: var.$body-font;
     color: var.$white;
     background-color: var.$dark-blue-email-and-background;
-
-    @include menuStyle.menu;
 }
 
-
+@include menuStyle.menu;
+@include section-first.section;
 

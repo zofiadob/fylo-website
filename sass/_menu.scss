@@ -1,33 +1,38 @@
 @use "./variable" as var;
 
 @mixin menu {
-    .menu-list {
-        display: flex;
-        padding: 0;
-        margin: 1.7rem 0;
-        width: 100%;
-        font-family: var.$accent-font;
+    .primal-nav {
+        margin: 0 1.6em;
 
-        .logo-image {
-            width: min(70%, 100px);
-        }
-
-        .left-items {
-            width: 100%;
-            margin: auto;
+        .menu-list {
             display: flex;
-            justify-content: right;
+            padding: 0;
+            margin: 1.7rem 0;
+            width: 100%;
+            font-family: var.$accent-font;
+            font-size: 0.8rem;
 
-            .menu-item {
-                margin-left: 1.5rem;
+            .logo-image {
+                width: min(70%, 100px);
+            }
 
-                & a {
-                    text-decoration: none;
-                    color: var.$white;
+            .left-items {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                justify-content: right;
 
-                    &:hover {
-                        color: var.$blue;
-                        transition: color 0.7s;
+                .menu-item {
+                    margin-left: 1.5rem;
+
+                    & a {
+                        text-decoration: none;
+                        color: var.$white;
+
+                        &:hover {
+                            color: var.$blue;
+                            transition: color 0.7s;
+                        }
                     }
                 }
             }
