@@ -47,8 +47,7 @@
 
                 &:hover{
                     cursor: pointer;
-                    background: none;
-                    background-color: var.$hover-button;
+                    background: var.$hover-button;
                 }
             }
         }

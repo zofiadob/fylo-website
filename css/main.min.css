@@ -84,6 +84,5 @@ body {
 }
 .section-first .section-container .button:hover {
   cursor: pointer;
-  background: none;
-  background-color: #8CDBE4;
+  background: #8CDBE4;
 }
